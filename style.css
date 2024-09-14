@@ -113,3 +113,28 @@ ul{
     font-weight: 900;
     margin-bottom: 18px;
 }
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+}
+.call-body{
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 16px 32px;
+    gap: 2em;
+}
+.call-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.call-text{
+    color: #E5E7EB;
+    font-size: 12px;
+}
+.call-right .btn{
+    border: 3px solid #F9FAF8;
+}
