@@ -1,5 +1,5 @@
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 .header a{
@@ -92,4 +92,24 @@ ul{
     height: 150px;
     width: 150px;
     margin-bottom: 8px;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 48px;
+}
+.quote-text{
+    margin-bottom: 16px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.author{
+    align-self: flex-end;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 18px;
 }
