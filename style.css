@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    background-color: white;
 }
 .header a{
     text-decoration: none;
@@ -137,6 +138,7 @@ ul{
 }
 .call-right .btn{
     border: 3px solid #F9FAF8;
+    flex-shrink: 0;
 }
 .footer{
     display: flex;
